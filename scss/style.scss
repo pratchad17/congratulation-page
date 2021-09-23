@@ -11,8 +11,34 @@ body{
     font: {
         family:$myFont;
         size: $myFontSize;
+        // overflow: hidden;
 
     }
+    .banner-img {
+        position: absolute;
+        width: 620px;
+        
+        height: 700px;
+      left: 0px;
+     top: 1px;
+    }
+   .blog{
+       margin-top: 200px;
+       margin-bottom: 180px;
+     
+    //    margin: 20;
+       padding: 5;
+    // display: flex;
+    // flex-direction: column;
+    // border: 1px solid white;
+    // justify-content: center;
+    
+    // width: 70px;
+    // height: 70px;
+    // // padding: 10px;
+    // border-radius: 48px;
+
+   }
     span{
         font-size: $spanFontSize;
         color: $spanColor;
